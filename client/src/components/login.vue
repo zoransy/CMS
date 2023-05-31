@@ -67,7 +67,8 @@
                             method: 'post',
                             data: {
                                 user: this.form.name,
-                                passwd: this.$md5(this.form.passwd + this.$salt),
+                                //passwd: this.$md5(this.form.passwd + this.$salt),
+                                passwd: this.form.passwd,
                             },
 
                             transformRequest: [function (data) {
