@@ -12,7 +12,7 @@
             </el-form-item>
 
             <el-form-item label-width="0px">
-                <el-button size="medium" style="border-color: #ffffff; margin-right: 43%; left: 0px;" @click="clickRegister">创建账户</el-button>
+                <el-button size="medium" style="border-color: #ded9d9; margin-right: 43%; left: 0px;" @click="clickRegister">创建账户</el-button>
                 <el-button type="primary" size="medium" :loading = "isLoading" @click="ClickLogin" >{{text}}</el-button>
             </el-form-item>
 
@@ -152,11 +152,10 @@
         transform: translate(-50%, -50%);
         width: 20rem;
         position: absolute;
-        background-color: white;
+        background-color: rgba(255, 255, 255, 0.8);
         padding: 20px 20px 10px 20px;
         border-radius: 10px;
         box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.11);
     }
-
 
 </style>
